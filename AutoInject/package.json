@@ -1,0 +1,16 @@
+{
+  "name": "com.voodya.vooautoinject.vcontainer",
+  "displayName": "VooAutoInject-VContainer",
+  "author": {
+    "name": "Voodya",
+    "url": "https://voodyadev.online/"
+  },
+  "version": "1.0",
+  "unity": "2018.4",
+  "description": "Auto Inject",
+  "keywords": [ "async/await", "async", "Task", "UniTask" ],
+  "license": "MIT",
+  "category": "DI",
+  "dependencies": {
+  }
+}
