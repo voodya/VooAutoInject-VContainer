@@ -13,7 +13,7 @@ Automatically add a game object with dependencies to VContainer.LifetimeScope (i
 Git install url: https://github.com/voodya/VooAutoInject-VContainer.git?path=Assets/AutoInject
 ## Video Example
 
-(https://github.com/user-attachments/assets/9d287584-faad-4f9c-83f8-2510804438bd)
+https://github.com/user-attachments/assets/9d287584-faad-4f9c-83f8-2510804438bd
 
 
 ## How to use
