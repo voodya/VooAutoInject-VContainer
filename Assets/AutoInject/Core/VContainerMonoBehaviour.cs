@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+#if UNITY_EDITOR
 using System.Reflection;
-using UnityEditor;
 using UnityEditor.SceneManagement;
+#endif
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
@@ -13,7 +14,8 @@ namespace Voodya.VooAutoInject.VContainer
     {
         public virtual void OnValidate()
         {
-            if(this.gameObject.scene.name is null) { return; }
+#if UNITY_EDITOR
+            if (this.gameObject.scene.name is null) { return; }
 
             var gg = PrefabStageUtility.GetCurrentPrefabStage();
             if (gg != null)
@@ -43,6 +45,7 @@ namespace Voodya.VooAutoInject.VContainer
             {
                 Debug.LogError("Notfound liftimescope in scene");
             }
+#endif
         }
     }
 }
