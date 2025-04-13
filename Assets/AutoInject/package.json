@@ -11,7 +11,5 @@
   "keywords": [ "async/await", "async", "Task", "UniTask" ],
   "license": "MIT",
   "category": "DI",
-  "dependencies": {
-    "jp.hadashikick.vcontainer": "1.16.8"
-  }
+  "dependencies": {}
 }
